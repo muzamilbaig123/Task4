@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Task 4</title>
+    <title>Task 4 Muzamil Baig</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
@@ -14,11 +14,101 @@
       rel="stylesheet"
     />
   </head>
-
   <body>
-    
+    <div class="main">
+      <div class="left">
+        <nav>
+          <ul>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Podcast</a></li>
+          </ul>
+        </nav>
 
+        <div class="about-card">
+          <div class="card-top">
+            <i class="ri-drag-move-fill"></i>
+            <span>About Me</span>
+          </div>
+
+          <div class="card-middle">
+            <div class="photo-ring">
+              <div class="photo-inner">
+                <img src="images/hero.png" alt="Jon Daniel" />
+              </div>
+            </div>
+          </div>
+
+          <div class="card-bottom">
+            <div class="name-block">
+              <p class="im">Im,</p>
+              <h2 class="name">Jon<br />Daniel</h2>
+              <p class="email">
+                <i class="ri-mail-line"></i> inquiry@jondaniel.design
+              </p>
+            </div>
+            <div class="badge">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="49" fill="#1a1a1a" />
+                <circle cx="50" cy="50" r="8" fill="white" />
+                <defs>
+                  <path
+                    id="textCircle"
+                    d="M 50,50 m -34,0 a 34,34 0 1,1 68,0 a 34,34 0 1,1 -68,0"
+                  />
+                </defs>
+                <text
+                  fill="#fff"
+                  font-size="8"
+                  letter-spacing="3"
+                  font-family="Inter, sans-serif"
+                  font-weight="600"
+                >
+                  <textPath href="#textCircle" startOffset="0%">
+                    · 2026 · MY DESIGN PORTFOLIO ·
+                  </textPath>
+                </text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <h1 class="title">Portfolio<sup>↗</sup></h1>
+
+        <div class="grid">
+          <div class="card img-card">
+            <img src="images/portfoliolarge.jpg" alt="Featured" />
+            <button class="play-btn"><i class="ri-play-fill"></i></button>
+          </div>
+
+          <div class="card proj-card">
+            <h3>251</h3>
+            <p>Projects</p>
+          </div>
+
+          <div class="card award-card">
+            <h3>156</h3>
+            <p>Awards</p>
+          </div>
+
+          <div class="card clients-card">
+            <img src="images/apple.png" alt="Apple" class="apple-logo" />
+            <p>Clients</p>
+          </div>
+
+          <div class="card sphere-card">
+            <img src="images/cartoonworld.webp" alt="Sphere" />
+          </div>
+
+          <div class="card global-card">
+            <h3>172</h3>
+            <p>Global Design<br />Awards.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
-
-
 </html>
